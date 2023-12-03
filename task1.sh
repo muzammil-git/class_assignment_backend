@@ -10,4 +10,4 @@ echo "Today is $date, $github_access_token $github_username"
 
 git add .
 git commit -m 'initial commit'
-git push https://${github_access_token}@github.com/${github_username}/${repo_name}.git
+git push https://${github_access_token}@github.com/${github_username}/${repo_name}.git origin main
