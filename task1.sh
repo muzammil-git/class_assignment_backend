@@ -11,4 +11,4 @@ echo "Today is $date, $github_access_token $github_username"
 git pull https://github.com/muzammil-git/class_assignment_backend.git
 git add .
 git commit -m 'initial commit'
-git push https://${github_access_token}@github.com/${github_username}/${repo_name}.git origin main
+git push https://${github_access_token}@github.com/${github_username}/${repo_name}.git
