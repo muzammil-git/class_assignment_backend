@@ -8,6 +8,8 @@ repo_name="class_assignment_backend"
 
 echo "Today is $date, $github_access_token $github_username"
 
+
+git fetch -all
 git pull https://github.com/muzammil-git/class_assignment_backend.git
 git add .
 git commit -m 'initial commit'
